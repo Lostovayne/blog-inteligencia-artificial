@@ -61,7 +61,7 @@ const ArticuloPage = ({ params: { id } }: Props) => {
             alt="image"
             width={500}
             height={500}
-            className="mx-auto mt-10 mb-5 xl:mb-6  h-80  w-full  xl:w-auto xl:h-96  shadow object-cover xl:object-cover rounded-lg"
+            className="mx-auto mt-10 mb-5 xl:mb-6  h-80  w-full  xl:w-96 xl:h-96  shadow object-cover xl:object-cover rounded-lg"
           />
         )}
       </section>
