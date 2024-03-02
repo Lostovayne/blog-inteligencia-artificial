@@ -80,7 +80,7 @@ export const Articulos: ArticulosData[] = [
     title: "Ética de la IA: Desafíos y Consideraciones",
     description:
       "A medida que la IA se vuelve más amplia, recopila y procesa grandes cantidades de datos personales. Esto plantea preocupaciones legítimas sobre la privacidad y la protección de datos. Este tema es muy delicado, y la Unión Europea cada vez regula y protege más la privacidad de los usuarios. La IA trata datos masivos y cada vez se alimenta y aprende de nuevos datos con el fin de tomar decisiones inteligentes. Las organizaciones y los desarrolladores de IA deben garantizar que se cumplan los estándares éticos y legales para el uso y almacenamiento de datos, protegiendo la privacidad de las personas y evitando el uso indebido de la información personal. ",
-    image: ["/articulos/inteligencia.png", "/articulos/inteligencia2.jpg"],
+    image: ["/articulos/etica.png", "/articulos/inteligencia2.jpg"],
     publishedAt: "2024-01-01",
     lenguage: "Python",
     icon: "/python.png",

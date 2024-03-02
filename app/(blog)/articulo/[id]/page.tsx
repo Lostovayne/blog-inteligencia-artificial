@@ -29,9 +29,9 @@ const ArticuloPage = ({ params: { id } }: Props) => {
           alt="image"
           width={500}
           height={500}
-          className="mx-auto mt-10 mb-6 w-auto h-96 shadow  object-cover rounded-lg"
+          className="mx-auto mt-10 mb-5 xl:mb-6  h-auto  w-full  xl:w-auto xl:h-96  shadow object-contain xl:object-cover rounded-lg"
         />
-        <p className="text-wrap    py-6 xl:px-10 font-normal text-base xl:text-xl">
+        <p className="text-wrap    py-0 xl:py-6 xl:px-10 font-normal text-base xl:text-xl">
           {Articulo.description}
         </p>
 
@@ -40,7 +40,7 @@ const ArticuloPage = ({ params: { id } }: Props) => {
           alt="image"
           width={500}
           height={500}
-          className="mx-auto mt-10 mb-6 w-auto h-96 shadow  object-cover rounded-lg"
+          className="mx-auto mt-10 mb-5 xl:mb-6  h-auto  w-full  xl:w-auto xl:h-96  shadow object-contain xl:object-cover rounded-lg"
         />
 
         <h2 className="text-xl font-semibold py-4  xl:text-4xl text-pink-300">{Articulo?.title2}</h2>
@@ -61,7 +61,7 @@ const ArticuloPage = ({ params: { id } }: Props) => {
             alt="image"
             width={500}
             height={500}
-            className="mx-auto mt-10 mb-6 w-auto h-96 xl:w-80 shadow  object-cover rounded-lg"
+            className="mx-auto mt-10 mb-5 xl:mb-6  h-80  w-full  xl:w-auto xl:h-96  shadow object-cover xl:object-cover rounded-lg"
           />
         )}
       </section>
