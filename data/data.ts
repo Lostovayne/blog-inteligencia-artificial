@@ -1,4 +1,4 @@
-interface ArticulosData {
+export interface ArticulosData {
   id: string;
   title: string;
   description: string;
@@ -9,6 +9,7 @@ interface ArticulosData {
   description2?: string;
   title3?: string;
   description3?: string;
+  video?: string;
   icon: string;
 }
 
@@ -95,6 +96,19 @@ export const Articulos: ArticulosData[] = [
     En este caso sería necesario hacer una diferenciación entre dos tipos distintos de inteligencia artificial: La IA analítica y la IA generativa.`,
     image: ["/articulos/inteligencia.png", "/articulos/inteligencia2.jpg"],
     publishedAt: "2024-01-01",
+    lenguage: "Python",
+    icon: "/python.png",
+  },
+  {
+    id: "7",
+    title: "Que cosas podemos hacer con Python",
+    description:
+      "La era digital ha transformado radicalmente la forma en que nos comunicamos e interactuamos. Las redes sociales, los blogs y las plataformas de mensajería instantánea no solo han acortado las distancias y democratizado la información, sino que también han creado nuevos desafíos y dinámicas en nuestras relaciones personales y profesionales. Autores como Sherry Turkle advierten sobre la “conexión superficial” que a menudo experimentamos, donde la cantidad de interacciones supera a la calidad de las mismas. En el ámbito educativo, la tecnología ha permitido un acceso sin precedentes al conocimiento, pero también ha generado debates sobre la atención y la retención de información en entornos digitales.",
+    description2:
+      "En el futuro, es probable que veamos una mayor integración de la inteligencia artificial y la realidad virtual en nuestra vida cotidiana. Esto podría llevar a una mayor eficiencia en el trabajo y una personalización en la educación, como sugiere el autor Kevin Kelly en su libro “The Inevitable”. Sin embargo, también enfrentaremos cuestiones éticas y sociales complejas. La brecha digital podría ampliarse, y la dependencia de la tecnología podría afectar nuestra salud mental y física. Es esencial que, como sociedad, reflexionemos y actuemos para asegurar que la tecnología sirva como una herramienta para mejorar nuestras vidas, no para controlarlas.",
+    image: ["/articulos/python-imagen.jpeg"],
+    video: "https://youtu.be/Wn26MMd6q8s",
+    publishedAt: "2024-03-11",
     lenguage: "Python",
     icon: "/python.png",
   },
